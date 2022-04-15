@@ -10,15 +10,17 @@
 }
 #grid {
     display: flex;
+    flex-direction:initial;
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
     border: solid black;
-    align-items:stretch;
+    align-items: stretch;
 }
 
 .gridBlock {
     background-color: aquamarine;
+    width: 100%;
     /*border: solid black;*/
 }
 
